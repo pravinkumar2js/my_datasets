@@ -1,0 +1,13 @@
+"import nltk
+# nltk.download('punkt')
+nltk.download('punkt_tab')
+from nltk.tokenize import sent_tokenize
+from nltk.tokenize import word_tokenize
+text = ""Hello world! This is a tokenization example. The Natural Language Toolkit (NLTK) is a Python library used for working with human language data. Widely used in the field of Natural Language Processing (NLP), NLTK provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing and semantic reasoning.""
+sentences = sent_tokenize(text)
+print(""Sentence Tokenize\n"")
+print(""Sentence Tokenization:"")
+print(sentences)
+words = word_tokenize(text)
+print(""\nWord Tokenization:"")
+print(words)"
