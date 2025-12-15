@@ -11,3 +11,22 @@ print(sentences)
 words = word_tokenize(text)
 print(""\nWord Tokenization:"")
 print(words)"
+
+"import nltk
+from nltk.corpus import stopwords
+from nltk import word_tokenize
+# Download required datasets
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+text = "This is a simple example showing how to remove stop words using NLTK in Python.so, i bring some words"
+# Tokenize text
+words = word_tokenize(text)
+# Get English stop words
+stop_words = set(stopwords.words('english'))
+# Remove stop words
+filtered_words = [word for word in words if word.lower() not in stop_words]
+print("Original Words:")
+print(words)
+print("\nFiltered Words (Stop words removed):")
+print(filtered_words)"
