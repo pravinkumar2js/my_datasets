@@ -1,46 +1,27 @@
-data = [
-
-    # ---- REAL NEWS ----
-    ("Government announces new education policy for universities", "real"),
-    ("Supreme court issues new guidelines on data privacy", "real"),
-    ("Scientists discover new species in the Amazon rainforest", "real"),
-    ("Local hospital opens new emergency care unit", "real"),
-    ("Indian economy shows steady growth this quarter", "real"),
-    ("Election commission releases official voting schedule", "real"),
-    ("Researchers publish study on climate change effects", "real"),
-    ("Railway ministry introduces new safety measures", "real"),
-    ("Tech company launches affordable smartphone in India", "real"),
-    ("WHO releases new health advisory for flu season", "real"),
-    ("University announces semester examination timetable", "real"),
-    ("ISRO successfully launches communication satellite", "real"),
-    ("City corporation approves new waste management plan", "real"),
-    ("Police arrest suspects involved in bank robbery", "real"),
-    ("Weather department predicts heavy rainfall this week", "real"),
-    ("Government increases minimum wage for workers", "real"),
-    ("New metro line inaugurated by chief minister", "real"),
-    ("Public sector bank reports annual profit growth", "real"),
-    ("Supreme court hears case on environmental protection", "real"),
-    ("Education board releases exam results online", "real"),
-
-    # ---- FAKE NEWS ----
-    ("Breaking news celebrity wins lottery worth billions overnight", "fake"),
-    ("Click here to earn money from home without work", "fake"),
-    ("Government secretly approves time travel experiments", "fake"),
-    ("You will not believe what this politician did yesterday", "fake"),
-    ("Miracle cure discovered that doctors do not want you to know", "fake"),
-    ("Aliens spotted living among humans shocking proof revealed", "fake"),
-    ("This one trick can make you rich in seven days", "fake"),
-    ("Shocking news drinking this water makes you immortal", "fake"),
-    ("Celebrity caught in secret meeting with aliens", "fake"),
-    ("Scientists confirm earth will end next month", "fake"),
-    ("Watch this video before it gets deleted forever", "fake"),
-    ("Fake story reveals government hiding secret weapons", "fake"),
-    ("You wont believe these shocking exam hacks", "fake"),
-    ("Secret formula guarantees success without effort", "fake"),
-    ("Doctors shocked by this simple weight loss trick", "fake"),
-    ("Breaking viral news proves moon landing was fake", "fake"),
-    ("Earn lakhs daily using this unknown app", "fake"),
-    ("Government bans internet starting tomorrow shocking update", "fake"),
-    ("This ancient ritual makes you instantly powerful", "fake"),
-    ("Shocking truth media does not want you to see", "fake")
-]
+text,label
+Government announces new education policy for universities,real
+Supreme court issues new guidelines on data privacy,real
+Scientists discover new species in the Amazon rainforest,real
+Local hospital opens new emergency care unit,real
+Indian economy shows steady growth this quarter,real
+Election commission releases official voting schedule,real
+Researchers publish study on climate change effects,real
+Railway ministry introduces new safety measures,real
+Tech company launches affordable smartphone in India,real
+WHO releases new health advisory for flu season,real
+University announces semester examination timetable,real
+ISRO successfully launches communication satellite,real
+City corporation approves new waste management plan,real
+Police arrest suspects involved in bank robbery,real
+Weather department predicts heavy rainfall this week,real
+Government increases minimum wage for workers,real
+New metro line inaugurated by chief minister,real
+Public sector bank reports annual profit growth,real
+Supreme court hears case on environmental protection,real
+Education board releases exam results online,real
+Breaking news celebrity wins lottery worth billions overnight,fake
+Click here to earn money from home without work,fake
+Government secretly approves time travel experiments,fake
+You will not believe what this politician did yesterday,fake
+Miracle cure discovered that doctors do not want you to know,fake
+Aliens spotted living among humans shocking p
